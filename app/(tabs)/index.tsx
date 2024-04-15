@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, useState } from 'react'
 import { Text, StyleSheet, View, TouchableOpacity, Image, TextInput } from 'react-native'
 import { Stack } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
@@ -6,10 +6,18 @@ import Colors from '@/constansts/Colors';
 import { useHeaderHeight } from "@react-navigation/elements";
 import { SearchBar } from 'react-native-screens';
 import CategoryButtons from '@/components/CategoryButtons';
+import Listings from '@/components/Listings';
+import listingData from '@/data/destination.json'
 
 export default function Page() {
 
   const headerHeight = useHeaderHeight();
+  const [category, setCategory] = useState('All')
+
+  const onCatChanged = (category: string) => {
+    setCategory(category)
+    // console.log('index page',category);//accepting props from sorting 
+  }
 
   return (
     <>
@@ -17,11 +25,21 @@ export default function Page() {
         headerTransparent: true,
         headerTitle: '',
         headerLeft: () => (
-          <TouchableOpacity onPress={() => { }} style={{ marginLeft: 20 }} >
-            <Image source={{ uri: 'https://xsgames.co/randomusers/avatar.php?g=female' }}
-              style={{ width: 40, height: 40, borderRadius: 10 }}
-            />
-          </TouchableOpacity>
+          <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+            <TouchableOpacity onPress={() => { }} style={{ marginLeft: 20 }} >
+              <Image source={{ uri: 'https://xsgames.co/randomusers/avatar.php?g=female' }}
+                style={{ width: 40, height: 40, borderRadius: 10, }}
+              />
+            </TouchableOpacity>
+            <View>
+              <Text style={styles.headingTxt}>Good Morning!</Text>
+              <Text style={{
+                color: Colors.primaryColor, fontSize: 14,
+                fontWeight: "500",
+                marginLeft: 10,
+              }}>Merry Coe</Text>
+            </View>
+          </View>
         ),
         headerRight: () => (
           <TouchableOpacity onPress={() => { }} style={{
@@ -44,17 +62,17 @@ export default function Page() {
       }}
       />
       <View style={[styles.container, { paddingTop: headerHeight }]}>
-        <Text style={styles.headingTxt}>Hello, John Doe</Text>
         <View style={styles.searchSectionWrapper}>
           <View style={styles.searchBar}>
             <TextInput placeholder='Search' style={styles.inputField} />
-            <Ionicons name='search' size={20} style={styles.searchIcon}/>
+            <Ionicons name='search' size={20} style={styles.searchIcon} />
           </View>
           <TouchableOpacity onPress={() => { }} style={styles.filterButton}>
             <Ionicons name="options" size={28} color={'#ffffff'} />
           </TouchableOpacity>
         </View>
-        <CategoryButtons/>
+        <CategoryButtons onCategoryChanged={onCatChanged} />
+        <Listings listings={listingData} category={category} />
       </View>
     </>
   )
@@ -67,23 +85,23 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.bgColor,
   },
   headingTxt: {
-    fontSize: 16,
-    fontWeight: "600",
+    fontSize: 14,
+    fontWeight: "500",
     color: Colors.black,
-    marginTop: 10,
+    marginLeft: 10,
   },
   searchSectionWrapper: {
     flexDirection: 'row',
-    marginVertical: 20,
+    marginVertical: 10,
     alignItems: "center",
   },
   searchBar: {
     flex: 1,
     flexDirection: 'row',
     backgroundColor: Colors.white,
-    padding: 16,
+    padding: 14,
     borderRadius: 10,
-    justifyContent:'space-between',
+    justifyContent: 'space-between',
     position: 'relative',
     alignItems: "center",
   },
@@ -92,13 +110,13 @@ const styles = StyleSheet.create({
     right: 15,
     zIndex: 1,
   },
-  inputField:{
+  inputField: {
     width: "90%",
   },
-  filterButton:{
-    marginLeft:18,
-    backgroundColor:Colors.primaryColor,
-    padding: 8,
+  filterButton: {
+    marginLeft: 18,
+    backgroundColor: Colors.primaryColor,
+    padding: 6,
     borderRadius: 10,
   }
 })

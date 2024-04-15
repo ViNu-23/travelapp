@@ -18,7 +18,7 @@ export default function Layout() {
     }}>
       <Tabs.Screen name='index' options={{
         tabBarIcon: ({ color }) => (
-          <Ionicons name='compass' size={28} color={color} />
+          <Ionicons name='home' size={26} color={color} />
         )
       }} />
       <Tabs.Screen name='category' options={{
@@ -30,12 +30,11 @@ export default function Layout() {
         tabBarIcon: ({ color }) => (
           <View style={{ 
             backgroundColor: Colors.primaryColor, 
-            paddingHorizontal: 16, 
-            paddingVertical: 8, 
+            paddingHorizontal: 8, 
+            paddingVertical: 4, 
             borderRadius: 12, 
-            height: 40 
             }}>
-            <Ionicons name='search-outline' size={24} color={Colors.white} />
+            <Ionicons name='compass' size={32} color={Colors.white} />
           </View>
         )
       }} />
