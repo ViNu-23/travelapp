@@ -4,12 +4,14 @@ import { Stack } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import Colors from '@/constansts/Colors';
 import { useHeaderHeight } from "@react-navigation/elements";
-import { SearchBar } from 'react-native-screens';
 import CategoryButtons from '@/components/CategoryButtons';
 import Listings from '@/components/Listings';
 import listingData from '@/data/destination.json'
 import GroupListing from '@/components/GroupListing';
 import groupData from "@/data/groups.json";
+import bestplaces from "@/data/bestplaces.json";
+
+import BestDeals from '@/components/BestDeals';
 
 export default function Page() {
 
@@ -18,7 +20,6 @@ export default function Page() {
 
   const onCatChanged = (category: string) => {
     setCategory(category)
-    // console.log('index page',category);//accepting props from sorting 
   }
 
   return (
@@ -77,6 +78,7 @@ export default function Page() {
         <CategoryButtons onCategoryChanged={onCatChanged} />
         <Listings listings={listingData} category={category} />
         <GroupListing listings={groupData}/>
+        <BestDeals deals={bestplaces}/>
         </ScrollView>
       </View>
     </>
