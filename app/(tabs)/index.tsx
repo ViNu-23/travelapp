@@ -1,5 +1,5 @@
 import React, { Component, useState } from 'react'
-import { Text, StyleSheet, View, TouchableOpacity, Image, TextInput } from 'react-native'
+import { Text, StyleSheet, View, TouchableOpacity, Image, TextInput, ScrollView } from 'react-native'
 import { Stack } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import Colors from '@/constansts/Colors';
@@ -8,6 +8,8 @@ import { SearchBar } from 'react-native-screens';
 import CategoryButtons from '@/components/CategoryButtons';
 import Listings from '@/components/Listings';
 import listingData from '@/data/destination.json'
+import GroupListing from '@/components/GroupListing';
+import groupData from "@/data/groups.json";
 
 export default function Page() {
 
@@ -44,7 +46,7 @@ export default function Page() {
         headerRight: () => (
           <TouchableOpacity onPress={() => { }} style={{
             marginRight: 20,
-            backgroundColor: Colors.white,
+            backgroundColor: Colors.primaryColor,
             padding: 12,
             borderRadius: 10,
             shadowColor: 'rgba(0, 0, 0, 0.05)',
@@ -56,23 +58,26 @@ export default function Page() {
             shadowRadius: 1,
             elevation: 1,
           }}>
-            <Ionicons name="notifications" size={20} color={Colors.black} />
+            <Ionicons name="notifications" size={20} color={Colors.white} />
           </TouchableOpacity>
         )
       }}
       />
       <View style={[styles.container, { paddingTop: headerHeight }]}>
+        <ScrollView showsVerticalScrollIndicator={false}>
         <View style={styles.searchSectionWrapper}>
           <View style={styles.searchBar}>
             <TextInput placeholder='Search' style={styles.inputField} />
             <Ionicons name='search' size={20} style={styles.searchIcon} />
           </View>
-          <TouchableOpacity onPress={() => { }} style={styles.filterButton}>
+          {/* <TouchableOpacity onPress={() => { }} style={styles.filterButton}>
             <Ionicons name="options" size={28} color={'#ffffff'} />
-          </TouchableOpacity>
+          </TouchableOpacity> */}
         </View>
         <CategoryButtons onCategoryChanged={onCatChanged} />
         <Listings listings={listingData} category={category} />
+        <GroupListing listings={groupData}/>
+        </ScrollView>
       </View>
     </>
   )

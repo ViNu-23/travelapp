@@ -121,17 +121,6 @@
       "category": "Deserts"
     },
     {
-      "id": "17",
-      "name": "India gate",
-      "image": "https://blogs.thomascook.in/wp-content/uploads/2023/09/Delhi.jpg",
-      "description": "The India Gate is a war memorial located near the Kartavya path on the eastern edge of the ceremonial axis of New Delhi, formerly called Rajpath",
-      "rating": 4.7,
-      "price": "150",
-      "duration": "4",
-      "location": "New Delhi",
-      "category": "Historical Sites"
-    },
-    {
       "id": "18",
       "name": "The Great Wall of China",
       "image": "https://cdn-imgix.headout.com/media/images/5b6b5c4b44633621ad74cc44800b836c-great%20wall%20of%20china.jpg?fm=pjpg&auto=compress&w=1100&h=750&crop=faces&fit=min",
