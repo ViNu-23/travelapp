@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1540541338287-41700207dee6?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Beaches"
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1512273222628-4daea6e55abb?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Mountains"
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1546436836-07a91091f160?q=80&w=3548&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Cities"
+  },
+  {
+    "id": 4,
+    "image": "https://plus.unsplash.com/premium_photo-1668917805105-2d5d9e49af87?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": "Forests"
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1535927583620-7940e95a5a05?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFrZSx0cmFucXVpbHx8fHx8fDE3MTEwMzI1MjA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600",
+    "category": "Lakes"
+  },
+  {
+    "id": 6,
+    "image": "https://cdn-imgix.headout.com/media/images/5b6b5c4b44633621ad74cc44800b836c-great%20wall%20of%20china.jpg?fm=pjpg&auto=compress&w=1100&h=750&crop=faces&fit=min",
+    "category": "Historical Sites"
+  },
+  {
+    "id": 7,
+    "image": "https://www.eurokidsindia.com/blog/wp-content/uploads/2023/10/best-indian-national-parks-for-family-adventures.jpg",
+    "category": "National Parks"
+  },
+  {
+    "id": 8,
+    "image": "https://www.explore.com/img/gallery/15-most-beautiful-private-islands-in-the-world-you-can-rent-upgrade/l-intro-1697043493.jpg",
+    "category": "Islands"
+  },
+  {
+    "id": 9,
+    "image": "https://images.nationalgeographic.org/image/upload/v1638890138/EducationHub/photos/seba-oasis.jpg",
+    "category": "Deserts"
+  }
+]
