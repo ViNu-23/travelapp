@@ -23,17 +23,17 @@ const destinationCategories = [
     id: "5",
     title: "Forests",
     iconName: "tree",
-  },
-  {
-    id: "6",
-    title: "Lakes",
-    iconName: "swim",
-  },
-  {
-    id: "7",
-    title: "Historical Sites",
-    iconName: "castle",
   }
+  // {
+  //   id: "6",
+  //   title: "Lakes",
+  //   iconName: "swim",
+  // },
+  // {
+  //   id: "7",
+  //   title: "Historical Sites",
+  //   iconName: "castle",
+  // },
   // {
   //   id: "8",
   //   title: "National Parks",

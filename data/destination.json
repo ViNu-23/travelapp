@@ -66,7 +66,7 @@
       "category": "Beaches"
     },
     {
-      "id": "8",
+      "id": "7",
       "name": "Mystical Forest Sanctuary",
       "image": "https://images.unsplash.com/photo-1496564692837-ec757c470e07?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8Zm9yZXN0LG15c3RpY2FsfHx8fHx8MTcxMTAzMjgyNA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600",
       "description": "Embark on a journey through ancient forests, mystical ruins, and hidden wonders in this enchanted sanctuary.",
@@ -77,7 +77,7 @@
       "category": "Forests"
     },
     {
-      "id": "10",
+      "id": "8",
       "name": "Alpine Adventure Lodge",
       "image": "https://images.unsplash.com/photo-1521929135277-1891dc05ef4d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bW91bnRhaW4sYWxwaW5lfHx8fHx8MTcxMTAzMjk4OQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600",
       "description": "Embark on an unforgettable alpine adventure with thrilling outdoor activities and cozy lodge accommodations.",
@@ -88,7 +88,7 @@
       "category": "Mountains"
     },
     {
-      "id": "11",
+      "id": "9",
       "name": "Cultural Capitals",
       "image": "https://images.unsplash.com/photo-1689723744935-60e01c337543?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8Y2l0eSxjdWx0dXJhbHx8fHx8fDE3MTEwMzMwODY&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600",
       "description": "Explore the vibrant tapestry of culture, history, and art in the world's most captivating cultural capitals.",
@@ -99,7 +99,7 @@
       "category": "Cities"
     },
     {
-      "id": "13",
+      "id": "10",
       "name": "Alpine Lakeside Lodge",
       "image": "https://images.unsplash.com/photo-1508899005055-fb1677e7b887?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "Unwind by the tranquil shores of an alpine lake, surrounded by majestic peaks and pristine nature.",
@@ -110,9 +110,9 @@
       "category": "Lakes"
     },
     {
-      "id": "16",
+      "id": "11",
       "name": "India gate",
-      "image": "https://blogs.thomascook.in/wp-content/uploads/2023/09/Delhi.jpg",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj2iFBNul6U8Ph9wCRmqxRg2A3H_US376b6pSl1wOv-w&s",
       "description": "The India Gate is a war memorial located near the Kartavya path on the eastern edge of the ceremonial axis of New Delhi, formerly called Rajpath",
       "rating": 4.7,
       "price": "150",
@@ -121,14 +121,152 @@
       "category": "Deserts"
     },
     {
-      "id": "18",
+      "id": "12",
       "name": "The Great Wall of China",
-      "image": "https://cdn-imgix.headout.com/media/images/5b6b5c4b44633621ad74cc44800b836c-great%20wall%20of%20china.jpg?fm=pjpg&auto=compress&w=1100&h=750&crop=faces&fit=min",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/alpe-di-siusi-sunrise-with-sassolungo-or-langkofel-royalty-free-image-1623254127.jpg",
+      "description": "The Great Wall of China spans over 13,000 miles and dates back to the 7th century BC. Its primary purpose was to serve as a formidable defensive fortification against invasions from nomadic tribes",
+      "rating": 4.7,
+      "price": "150",
+      "duration": "4",
+      "location": "China",
+      "category": "Mountains"
+    },
+    {
+      "id": "13",
+      "name": "The Great Wall of China",
+      "image":"https://static.toiimg.com/photo/msid-105904215,width-96,height-65.cms",
+      "description": "The Great Wall of China spans over 13,000 miles and dates back to the 7th century BC. Its primary purpose was to serve as a formidable defensive fortification against invasions from nomadic tribes",
+      "rating": 4.7,
+      "price": "150",
+      "duration": "4",
+      "location": "China",
+      "category": "Cities"
+    },
+    {
+      "id": "14",
+      "name": "The Great Wall of China",
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVukQhFUYV6Ad-R8splf_rtahGvYSFvXoIFh3yY0DgPw&s",
+      "description": "The Great Wall of China spans over 13,000 miles and dates back to the 7th century BC. Its primary purpose was to serve as a formidable defensive fortification against invasions from nomadic tribes",
+      "rating": 4.7,
+      "price": "150",
+      "duration": "4",
+      "location": "China",
+      "category": "Lakes"
+    },
+    {
+      "id": "15",
+      "name": "The Great Wall of China",
+      "image":"https://www.skywaytour.com/media/gallery/2023-01-23-12-14-33-hampi.jpg",
       "description": "The Great Wall of China spans over 13,000 miles and dates back to the 7th century BC. Its primary purpose was to serve as a formidable defensive fortification against invasions from nomadic tribes",
       "rating": 4.7,
       "price": "150",
       "duration": "4",
       "location": "China",
       "category": "Historical Sites"
+    },
+    {
+      "id": "16",
+      "name": "The Great Wall of China",
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmQz48OmPRXPxh8bX4XUQTyIruwX4d49YX54gKj4UBgg&s",
+      "description": "The Great Wall of China spans over 13,000 miles and dates back to the 7th century BC. Its primary purpose was to serve as a formidable defensive fortification against invasions from nomadic tribes",
+      "rating": 4.7,
+      "price": "150",
+      "duration": "4",
+      "location": "China",
+      "category": "Historical Sites"
+    },
+    {
+      "id": "17",
+      "name": "The Great Wall of China",
+      "image":"https://www.holidify.com/images/attr_square/1020.jpg",
+      "description": "The Great Wall of China spans over 13,000 miles and dates back to the 7th century BC. Its primary purpose was to serve as a formidable defensive fortification against invasions from nomadic tribes",
+      "rating": 4.7,
+      "price": "150",
+      "duration": "4",
+      "location": "China",
+      "category": "Historical Sites"
+    },
+    {
+      "id": "18",
+      "name": "The Great Wall of China",
+      "image":"https://i.natgeofe.com/n/f14f6c30-8d11-4e33-a5e9-05f1b50bdde3/yosemite-national-park-california_16x9.jpg?w=1200",
+      "description": "The Great Wall of China spans over 13,000 miles and dates back to the 7th century BC. Its primary purpose was to serve as a formidable defensive fortification against invasions from nomadic tribes",
+      "rating": 4.7,
+      "price": "150",
+      "duration": "4",
+      "location": "China",
+      "category": "National Parks"
+    },
+    {
+      "id": "19",
+      "name": "The Great Wall of China",
+      "image":"https://cdn.shopify.com/s/files/1/0319/8721/files/how-many-national-parks-in-the-US.jpg?v=1680504467",
+      "description": "The Great Wall of China spans over 13,000 miles and dates back to the 7th century BC. Its primary purpose was to serve as a formidable defensive fortification against invasions from nomadic tribes",
+      "rating": 4.7,
+      "price": "150",
+      "duration": "4",
+      "location": "China",
+      "category": "National Parks"
+    },
+    {
+      "id": "20",
+      "name": "The Great Wall of China",
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbRLzRtQ9csf_ofsKvk5rIJ0MRg4psxWBtRw9CNlIpKg&s",
+      "description": "The Great Wall of China spans over 13,000 miles and dates back to the 7th century BC. Its primary purpose was to serve as a formidable defensive fortification against invasions from nomadic tribes",
+      "rating": 4.7,
+      "price": "150",
+      "duration": "4",
+      "location": "China",
+      "category": "National Parks"
+      
+    },
+    {
+      "id": "21",
+      "name": "The Great Wall of China",
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSREwEfwOQ4ZdO-tEoimZ4DytCaVje142q5I1eRudRQbQ&s",
+      "description": "The Great Wall of China spans over 13,000 miles and dates back to the 7th century BC. Its primary purpose was to serve as a formidable defensive fortification against invasions from nomadic tribes",
+      "rating": 4.7,
+      "price": "150",
+      "duration": "4",
+      "location": "China",
+      "category": "Islands"
+    },
+    {
+      "id": "22",
+      "name": "The Great Wall of China",
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIvPQpJQF2yI8ZJiB2uPkbjE-H28PQX5zTnKq900usPQ&s",
+      "description": "The Great Wall of China spans over 13,000 miles and dates back to the 7th century BC. Its primary purpose was to serve as a formidable defensive fortification against invasions from nomadic tribes",
+      "rating": 4.7,
+      "price": "150",
+      "duration": "4",
+      "location": "China",
+      "category": "Islands"
+
     }
+    ,
+    {
+      "id": "23",
+      "name": "The Great Wall of China",
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAsq1N9KPCe_lSB-DioMnbsWJyheGKNkdbPdhgHDgDXA&s",
+      "description": "The Great Wall of China spans over 13,000 miles and dates back to the 7th century BC. Its primary purpose was to serve as a formidable defensive fortification against invasions from nomadic tribes",
+      "rating": 4.7,
+      "price": "150",
+      "duration": "4",
+      "location": "China",
+      "category": "Islands"
+
+    }
+    ,
+    {
+      "id": "24",
+      "name": "The Great Wall of China",
+      "image":"https://static.toiimg.com/thumb/100767670/Desert-camping-in-Jaisalmer.jpg?width=1200&height=900",
+      "description": "The Great Wall of China spans over 13,000 miles and dates back to the 7th century BC. Its primary purpose was to serve as a formidable defensive fortification against invasions from nomadic tribes",
+      "rating": 4.7,
+      "price": "150",
+      "duration": "4",
+      "location": "China",
+      "category": "Deserts"
+    }
+
   ]
